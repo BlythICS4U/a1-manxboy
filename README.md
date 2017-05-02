@@ -54,3 +54,54 @@ Fuel Efficiency = 3.76
 
 Type the Kilometres: -4
 ```
+
+### Problem 4
+Write a program that validates "palindromic sentences". Any single word palindrome should be successful, regardless of any capitalization that exists. In addition, neither punctuation nor spacing should deny a sentence of being palindromic. Punctuation includes: **?!"':;().,-**
+
+Examples:
+```
+Type a sentence: Madam, I'm Adam!!
+This is a palindrome
+```
+```
+Type a sentence: Madam, you have a flat tire!!
+This is NOT a palindrome
+```
+```
+Type a sentence: RaDar
+This is a palindrome
+```
+```
+Type a sentence: A man -  a plan - a canal - Panama!!
+This is a palindrome
+```
+
+### Problem 5
+Write a program that inputs a line of text and outputs the line after these conversions have been made:
+ * words ending in "or" are changed to end in "our"
+ * any single quotes are replaced with double quotes (i.e. ' turns into " )
+ * any word whose first letter is a capital is converted to all capitals (e.g. Barn becomes BARN)
+
+Example:
+```
+Type a line of text: Barney is a boring 'bEige' color!!!
+Output line: BARNEY is a boring "bEige" colour!!!
+```
+
+### Problem 6
+Write a program that inputs a line of text, and then outputs it in a number of lines with a maximum length of 16 characters. Check the input to ensure that no single word is longer than 16 characters.
+
+Examples:
+```
+Type a sentence: There are a dozen fuzzy bunnies sleeping under the couch.
+
+There are a
+dozen fuzzy
+bunnies sleeping
+under the couch.
+```
+```
+Type a sentence: The argumentativeness of that guy is really off-putting
+
+The input includes argumentativeness, which is longer than 16 characters.
+```
