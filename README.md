@@ -2,9 +2,11 @@
 
 A separate NetBeans project has been provided for each assignment question.  Before you start your work, ensure that you have cloned this repository and created a develop branch.  When you have completed the assignment, commit to your develop branch and create a pull request.
 
-(1) Help! My program does not compile! Use the information provided by the NetBeans editor to fix the syntax errors in this program.  A working program should ask the user for 2 double values and output the sum and average of these 2 numbers.
+### Problem 1
+Help! My program does not compile! Use the information provided by the NetBeans editor to fix the syntax errors in this program.  A working program should ask the user for 2 double values and output the sum and average of these 2 numbers.
 
-(2) Write a program that allows the user to enter a sequence of five marks in the range from 50 to 99. You can assume that the user enters only integer values in this range. As each mark is entered, your program responds with the corresponding letter grade that is equivalent to the mark according to the following chart:
+### Problem 2
+Write a program that allows the user to enter a sequence of five marks in the range from 50 to 99. You can assume that the user enters only integer values in this range. As each mark is entered, your program responds with the corresponding letter grade that is equivalent to the mark according to the following chart:
 
 Mark Range | Letter Grade
 --- | ---
@@ -21,7 +23,8 @@ Mark Range | Letter Grade
 90 - 94 | A
 95 - 99 | A+
 
-(3) To determine the fuel efficiency of a vehicle, you perform the following calculation:
+### Problem 3
+To determine the fuel efficiency of a vehicle, you perform the following calculation:
 
         fuel efficiency     =     100*(litres used)
                                   -----------------
