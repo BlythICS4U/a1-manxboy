@@ -37,7 +37,7 @@ For example, if a car is driven 350 kilometres and uses 25 litres of fuel, the e
                                      350
 
 Write a program that uses a loop to allow the user to type two numbers: kilometres and litres.
-You need to declare all the numbers for this program as *double*, and use *keyboard.nextDouble()* to accept the input from the user. The loop ends if the value for kilometres is negative. Calculate and output the fuel efficiency for the number the user has entered. Use 2 decimals of accuracy. Allow the user to repeat this process for another set of numbers as many times as they want, entering a negative to signal the program is to end.  Format your output as shown in the example.
+You need to declare all the numbers for this program as *double*, and use *keyboard.nextDouble()* to accept the input from the user. Calculate and output the fuel efficiency for the number the user has entered. Use 2 decimals of accuracy. Allow the user to repeat this process for another set of numbers as many times as they want, entering a negative number to signal the program is to end.  Format your output as shown in the example.
 
 ```
 Type the Kilometres: 350
