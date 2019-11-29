@@ -1,5 +1,7 @@
 package problem1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author cgallinaro
@@ -12,20 +14,20 @@ public class Problem1 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         
-        double number1, number2
+        double number1, number2;
         
         System.out.println("Enter the first number:");
         number1 = keyboard.nextDouble();
         System.out.println("Enter the second number:");
-        number2 = keyboard.nextBoolean();
+        number2 = keyboard.nextDouble();
         
-        if (numberl > 0 && number2 > O) {
-            int sum = number1 + number2;
+        if (number1 > 0 && number2 > 0) {
+            double sum = number1 + number2;
             double average = sum / 2;
 
-            System.out.println("The sum is: + sum);
+            System.out.println("The sum is:" + sum);
             System.out.println("The average is: " + average);
-        else {
+        } else {
             System.out.println("GOOD BYE!");
         }
                 
